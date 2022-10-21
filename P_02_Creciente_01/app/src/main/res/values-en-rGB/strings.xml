@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Jugar">PLAY</string>
+    <string name="Configuracion">SETTINGS</string>
+    <string name="Acercade">ABOUT</string>
+    <string name="fin">Exit</string>
+</resources>
