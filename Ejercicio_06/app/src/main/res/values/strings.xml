@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ejercicio_06</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="windows">WINDOWS</string>
+    <string name="ubuntu">UBUNTU</string>
+    <string name="rbWindows">WINDOWS</string>
+    <string name="rbUbuntu">UBUNTU</string>
+</resources>

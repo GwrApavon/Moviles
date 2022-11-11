@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ejercicio_04</string>
+    <string name="mi_rcoles">MIÉRCOLES</string>
+    <string name="domingo">DOMINGO</string>
+    <string name="jueves">JUEVES</string>
+    <string name="s_bado">SÁBADO</string>
+    <string name="viernes">VIERNES</string>
+    <string name="pulsado_d_a">PULSADO DÍA</string>
+    <string name="martes">MARTES</string>
+    <string name="lunes">LUNES</string>
+</resources>
