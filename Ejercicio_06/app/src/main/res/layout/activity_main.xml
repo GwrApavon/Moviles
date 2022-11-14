@@ -10,14 +10,12 @@
         android:id="@+id/toggle"
         android:layout_width="384dp"
         android:layout_height="44dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="108dp"
-        android:layout_marginEnd="25dp"
+        android:layout_marginTop="152dp"
         android:background="@drawable/out_line"
-        android:checkedButton="@+id/rbUbuntu"
+        android:checkedButton="@+id/rbWindows"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -48,6 +46,65 @@
             android:button="@null"
             android:gravity="center"
             android:text="@string/rbUbuntu"
+            android:textColor="#000000"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/toggle2"
+        android:layout_width="385dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="300dp"
+        android:background="@drawable/out_line"
+        android:checkedButton="@+id/rbUbuntu"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbAndroid"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_widget_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/android"
+            android:textColor="#000000"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/rbIOS"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_widget_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/ios"
+            android:textColor="#000000"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/rbSymbiam"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_widget_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/symbiam"
             android:textColor="#000000"
             tools:ignore="TouchTargetSizeCheck" />
     </RadioGroup>

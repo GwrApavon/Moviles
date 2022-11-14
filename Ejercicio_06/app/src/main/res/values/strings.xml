@@ -5,4 +5,7 @@
     <string name="ubuntu">UBUNTU</string>
     <string name="rbWindows">WINDOWS</string>
     <string name="rbUbuntu">UBUNTU</string>
+    <string name="android">Android</string>
+    <string name="ios">IOS</string>
+    <string name="symbiam">SYMBIAM</string>
 </resources>
