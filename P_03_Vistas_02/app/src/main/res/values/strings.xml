@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P_03_Vistas_02</string>
+    <string name="hintName">Introduzca el nombre...</string>
+    <string name="hintPass">Contraseña...</string>
+    <string name="hintNum">Introduzca número...</string>
+    <string name="hintLines">Introduzca líneas de texto</string>
+</resources>

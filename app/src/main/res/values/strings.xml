@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PruebasLayouts</string>
+    <string name="txtHolaClase">¡Hola Clase!</string>
+    <string name="txtTB">¿Todo Bien?</string>
+</resources>
