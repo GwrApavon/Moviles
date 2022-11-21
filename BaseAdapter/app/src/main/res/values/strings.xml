@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BaseAdapter</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="nombre">Nombre</string>
+    <string name="todo">TODO</string>
+    <string name="foto">foto</string>
+</resources>
