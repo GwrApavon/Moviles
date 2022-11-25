@@ -3,20 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="106dp">
 
     <RelativeLayout
         android:id="@+id/LinearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#999999"
-        android:padding="2dp">
+        android:padding="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/foto"
             android:layout_width="95dp"
             android:layout_height="104dp"
-            android:src="@drawable/sophia" />
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="7dp"
+            android:contentDescription="@string/foto"
+            android:src="@drawable/sophia"
+            tools:ignore="ImageContrastCheck,ImageContrastCheck" />
 
         <TextView
             android:id="@+id/nombre"
@@ -24,24 +31,28 @@
             android:layout_height="29dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginStart="2dp"
-            android:layout_marginTop="0dp"
-            android:layout_marginEnd="51dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="47dp"
             android:layout_toEndOf="@+id/foto"
-            android:hint="Nombre..."
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:hint="@string/name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColorHint="#263238" />
 
         <TextView
             android:id="@+id/descripcion"
-            android:layout_width="261dp"
-            android:layout_height="73dp"
+            android:layout_width="254dp"
+            android:layout_height="72dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="51dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="44dp"
+            android:layout_toEndOf="@+id/foto"
+            android:hint="@string/description"
             android:paddingTop="10dp"
-            android:hint="Descripcion"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColorHint="#263238" />
 
         <RadioButton
             android:id="@+id/marcado"
@@ -49,10 +60,10 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="0dp"
-            android:focusable="false" />
-
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="-12dp"
+            android:focusable="false"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
     </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

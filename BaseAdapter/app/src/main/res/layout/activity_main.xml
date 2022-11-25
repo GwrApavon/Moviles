@@ -9,10 +9,23 @@
 
     <ListView
         android:id="@+id/miLista"
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
+        android:layout_width="413dp"
+        android:layout_height="662dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="413dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="664dp"
+        android:hint="@string/titulo"
+        android:textAlignment="center"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/miLista" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.RadioButton;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -23,12 +24,13 @@ public class Adaptador extends BaseAdapter {
         LayoutInflater mostrado = LayoutInflater.from(contexto);
         View elemento = mostrado.inflate(R.layout.elemento, parent, false);
         ImageView img = (ImageView) elemento.findViewById(R.id.foto);
-        String resName = "R.drawable." + datos.get(posicion).getImage();
-        img.setImageResource(Integer.parseInt(resName)); ///////////////////////////
+        img.setImageResource(datos.get(posicion).getImage());
         TextView nombre = (TextView) elemento.findViewById(R.id.nombre);
         nombre.setText(datos.get(posicion).getTitle());
         TextView description = (TextView) elemento.findViewById(R.id.descripcion);
         description.setText(datos.get(posicion).getDescription());
+        RadioButton marcado = (RadioButton) elemento.findViewById(R.id.marcado);
+        marcado.setChecked(datos.get(posicion).getMarcado());
         return elemento;
     }
     @Override

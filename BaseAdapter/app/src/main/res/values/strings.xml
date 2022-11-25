@@ -4,4 +4,8 @@
     <string name="nombre">Nombre</string>
     <string name="todo">TODO</string>
     <string name="foto">foto</string>
+    <string name="name">Nombre...</string>
+    <string name="description">Descripcion</string>
+    <string name="listado_de_ejemplo">Listado de ejemplo</string>
+    <string name="titulo">Titulo</string>
 </resources>
